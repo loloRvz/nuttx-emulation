@@ -1,0 +1,242 @@
+The target system is: Linux -  - wasm32
+The host system is: Linux - 5.4.0-58-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/wasi-sdk/bin/clang 
+Build flags: -nostdlib;-z;stack-size=4096
+Id flags: -c 
+
+The output was:
+0
+clang-11: warning: -z stack-size=4096: 'linker' input unused [-Wunused-command-line-argument]
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is Clang, found in "/home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/wasi-sdk/bin/clang++ 
+Build flags: -nostdlib;-z;stack-size=4096
+Id flags: -c 
+
+The output was:
+0
+clang-11: warning: -z stack-size=4096: 'linker' input unused [-Wunused-command-line-argument]
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is Clang, found in "/home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f911a/fast && /usr/bin/make -f CMakeFiles/cmTC_f911a.dir/build.make CMakeFiles/cmTC_f911a.dir/build
+make[1]: Entering directory '/home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f911a.dir/testCCompiler.c.o
+/opt/wasi-sdk/bin/clang --target=wasm32 --sysroot=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot   -nostdlib -z stack-size=4096    -o CMakeFiles/cmTC_f911a.dir/testCCompiler.c.o   -c /home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp/testCCompiler.c
+clang-11: warning: -z stack-size=4096: 'linker' input unused [-Wunused-command-line-argument]
+Linking C executable cmTC_f911a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f911a.dir/link.txt --verbose=1
+/opt/wasi-sdk/bin/clang --target=wasm32 --sysroot=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot -nostdlib -z stack-size=4096   -Wl,--initial-memory=65536,--no-entry,--strip-all,--allow-undefined-file=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/share/defined-symbols.txt  CMakeFiles/cmTC_f911a.dir/testCCompiler.c.o  -o cmTC_f911a 
+make[1]: Leaving directory '/home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ca369/fast && /usr/bin/make -f CMakeFiles/cmTC_ca369.dir/build.make CMakeFiles/cmTC_ca369.dir/build
+make[1]: Entering directory '/home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca369.dir/CMakeCCompilerABI.c.o
+/opt/wasi-sdk/bin/clang --target=wasm32 --sysroot=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot   -nostdlib -z stack-size=4096    -v -o CMakeFiles/cmTC_ca369.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang version 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)
+Target: wasm32
+Thread model: posix
+InstalledDir: /opt/wasi-sdk/bin
+clang-11: warning: -z stack-size=4096: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/opt/wasi-sdk/bin/clang-11" -cc1 -triple wasm32 -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility hidden -debugger-tuning=gdb -v -resource-dir /opt/wasi-sdk/lib/clang/11.0.0 -isysroot /home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot -internal-isystem /opt/wasi-sdk/lib/clang/11.0.0/include -internal-isystem /home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include -fdebug-compilation-dir /home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -o CMakeFiles/cmTC_ca369.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 11.0.0 based upon LLVM 11.0.0 default target wasm32-wasi
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/wasi-sdk/lib/clang/11.0.0/include
+ /home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include
+End of search list.
+Linking C executable cmTC_ca369
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca369.dir/link.txt --verbose=1
+/opt/wasi-sdk/bin/clang --target=wasm32 --sysroot=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot -nostdlib -z stack-size=4096   -Wl,--initial-memory=65536,--no-entry,--strip-all,--allow-undefined-file=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/share/defined-symbols.txt -v CMakeFiles/cmTC_ca369.dir/CMakeCCompilerABI.c.o  -o cmTC_ca369 
+clang version 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)
+Target: wasm32
+Thread model: posix
+InstalledDir: /opt/wasi-sdk/bin
+ "/opt/wasi-sdk/bin/wasm-ld" -m wasm32 -L/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/lib -z stack-size=4096 --initial-memory=65536 --no-entry --strip-all --allow-undefined-file=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/share/defined-symbols.txt CMakeFiles/cmTC_ca369.dir/CMakeCCompilerABI.c.o -o cmTC_ca369
+make[1]: Leaving directory '/home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/wasi-sdk/lib/clang/11.0.0/include]
+    add: [/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include]
+  end of search list found
+  collapse include dir [/opt/wasi-sdk/lib/clang/11.0.0/include] ==> [/opt/wasi-sdk/lib/clang/11.0.0/include]
+  collapse include dir [/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include] ==> [/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include]
+  implicit include dirs: [/opt/wasi-sdk/lib/clang/11.0.0/include;/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(wasm-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_ca369/fast && /usr/bin/make -f CMakeFiles/cmTC_ca369.dir/build.make CMakeFiles/cmTC_ca369.dir/build]
+  ignore line: [make[1]: Entering directory '/home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ca369.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/wasi-sdk/bin/clang --target=wasm32 --sysroot=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot   -nostdlib -z stack-size=4096    -v -o CMakeFiles/cmTC_ca369.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)]
+  ignore line: [Target: wasm32]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/wasi-sdk/bin]
+  ignore line: [clang-11: warning: -z stack-size=4096: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/opt/wasi-sdk/bin/clang-11" -cc1 -triple wasm32 -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility hidden -debugger-tuning=gdb -v -resource-dir /opt/wasi-sdk/lib/clang/11.0.0 -isysroot /home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot -internal-isystem /opt/wasi-sdk/lib/clang/11.0.0/include -internal-isystem /home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include -fdebug-compilation-dir /home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -o CMakeFiles/cmTC_ca369.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 11.0.0 based upon LLVM 11.0.0 default target wasm32-wasi]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/wasi-sdk/lib/clang/11.0.0/include]
+  ignore line: [ /home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_ca369]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca369.dir/link.txt --verbose=1]
+  ignore line: [/opt/wasi-sdk/bin/clang --target=wasm32 --sysroot=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot -nostdlib -z stack-size=4096   -Wl --initial-memory=65536 --no-entry --strip-all --allow-undefined-file=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/share/defined-symbols.txt -v CMakeFiles/cmTC_ca369.dir/CMakeCCompilerABI.c.o  -o cmTC_ca369 ]
+  ignore line: [clang version 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)]
+  ignore line: [Target: wasm32]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/wasi-sdk/bin]
+  link line: [ "/opt/wasi-sdk/bin/wasm-ld" -m wasm32 -L/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/lib -z stack-size=4096 --initial-memory=65536 --no-entry --strip-all --allow-undefined-file=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/share/defined-symbols.txt CMakeFiles/cmTC_ca369.dir/CMakeCCompilerABI.c.o -o cmTC_ca369]
+    arg [/opt/wasi-sdk/bin/wasm-ld] ==> ignore
+    arg [-m] ==> ignore
+    arg [wasm32] ==> ignore
+    arg [-L/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/lib] ==> dir [/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/lib]
+    arg [-zstack-size=4096] ==> ignore
+    arg [--initial-memory=65536] ==> ignore
+    arg [--no-entry] ==> ignore
+    arg [--strip-all] ==> ignore
+    arg [--allow-undefined-file=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/share/defined-symbols.txt] ==> ignore
+    arg [CMakeFiles/cmTC_ca369.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ca369] ==> ignore
+  collapse library dir [/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/lib] ==> [/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/lib]
+  implicit libs: []
+  implicit dirs: [/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_37177/fast && /usr/bin/make -f CMakeFiles/cmTC_37177.dir/build.make CMakeFiles/cmTC_37177.dir/build
+make[1]: Entering directory '/home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_37177.dir/testCXXCompiler.cxx.o
+/opt/wasi-sdk/bin/clang++ --target=wasm32 --sysroot=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot    -nostdlib -z stack-size=4096    -o CMakeFiles/cmTC_37177.dir/testCXXCompiler.cxx.o -c /home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+clang-11: warning: -z stack-size=4096: 'linker' input unused [-Wunused-command-line-argument]
+Linking CXX executable cmTC_37177
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37177.dir/link.txt --verbose=1
+/opt/wasi-sdk/bin/clang++ --target=wasm32 --sysroot=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot  -nostdlib -z stack-size=4096   -Wl,--initial-memory=65536,--no-entry,--strip-all,--allow-undefined-file=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/share/defined-symbols.txt  CMakeFiles/cmTC_37177.dir/testCXXCompiler.cxx.o  -o cmTC_37177 
+make[1]: Leaving directory '/home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aeeda/fast && /usr/bin/make -f CMakeFiles/cmTC_aeeda.dir/build.make CMakeFiles/cmTC_aeeda.dir/build
+make[1]: Entering directory '/home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aeeda.dir/CMakeCXXCompilerABI.cpp.o
+/opt/wasi-sdk/bin/clang++ --target=wasm32 --sysroot=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot    -nostdlib -z stack-size=4096    -v -o CMakeFiles/cmTC_aeeda.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+clang version 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)
+Target: wasm32
+Thread model: posix
+InstalledDir: /opt/wasi-sdk/bin
+clang-11: warning: -z stack-size=4096: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/opt/wasi-sdk/bin/clang-11" -cc1 -triple wasm32 -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility hidden -debugger-tuning=gdb -v -resource-dir /opt/wasi-sdk/lib/clang/11.0.0 -isysroot /home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot -internal-isystem /home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include/c++/v1 -internal-isystem /opt/wasi-sdk/lib/clang/11.0.0/include -internal-isystem /home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include -fdeprecated-macro -fdebug-compilation-dir /home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -o CMakeFiles/cmTC_aeeda.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 11.0.0 based upon LLVM 11.0.0 default target wasm32-wasi
+ignoring nonexistent directory "/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include/c++/v1"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/wasi-sdk/lib/clang/11.0.0/include
+ /home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include
+End of search list.
+Linking CXX executable cmTC_aeeda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeeda.dir/link.txt --verbose=1
+/opt/wasi-sdk/bin/clang++ --target=wasm32 --sysroot=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot  -nostdlib -z stack-size=4096   -Wl,--initial-memory=65536,--no-entry,--strip-all,--allow-undefined-file=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/share/defined-symbols.txt -v CMakeFiles/cmTC_aeeda.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_aeeda 
+clang version 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)
+Target: wasm32
+Thread model: posix
+InstalledDir: /opt/wasi-sdk/bin
+ "/opt/wasi-sdk/bin/wasm-ld" -m wasm32 -L/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/lib -z stack-size=4096 --initial-memory=65536 --no-entry --strip-all --allow-undefined-file=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/share/defined-symbols.txt CMakeFiles/cmTC_aeeda.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_aeeda
+make[1]: Leaving directory '/home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/wasi-sdk/lib/clang/11.0.0/include]
+    add: [/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include]
+  end of search list found
+  collapse include dir [/opt/wasi-sdk/lib/clang/11.0.0/include] ==> [/opt/wasi-sdk/lib/clang/11.0.0/include]
+  collapse include dir [/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include] ==> [/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include]
+  implicit include dirs: [/opt/wasi-sdk/lib/clang/11.0.0/include;/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(wasm-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_aeeda/fast && /usr/bin/make -f CMakeFiles/cmTC_aeeda.dir/build.make CMakeFiles/cmTC_aeeda.dir/build]
+  ignore line: [make[1]: Entering directory '/home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_aeeda.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/wasi-sdk/bin/clang++ --target=wasm32 --sysroot=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot    -nostdlib -z stack-size=4096    -v -o CMakeFiles/cmTC_aeeda.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang version 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)]
+  ignore line: [Target: wasm32]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/wasi-sdk/bin]
+  ignore line: [clang-11: warning: -z stack-size=4096: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/opt/wasi-sdk/bin/clang-11" -cc1 -triple wasm32 -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility hidden -debugger-tuning=gdb -v -resource-dir /opt/wasi-sdk/lib/clang/11.0.0 -isysroot /home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot -internal-isystem /home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include/c++/v1 -internal-isystem /opt/wasi-sdk/lib/clang/11.0.0/include -internal-isystem /home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include -fdeprecated-macro -fdebug-compilation-dir /home/lolo/Documents/emulation/wasm-example/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -o CMakeFiles/cmTC_aeeda.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 11.0.0 based upon LLVM 11.0.0 default target wasm32-wasi]
+  ignore line: [ignoring nonexistent directory "/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include/c++/v1"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/wasi-sdk/lib/clang/11.0.0/include]
+  ignore line: [ /home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_aeeda]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeeda.dir/link.txt --verbose=1]
+  ignore line: [/opt/wasi-sdk/bin/clang++ --target=wasm32 --sysroot=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot  -nostdlib -z stack-size=4096   -Wl --initial-memory=65536 --no-entry --strip-all --allow-undefined-file=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/share/defined-symbols.txt -v CMakeFiles/cmTC_aeeda.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_aeeda ]
+  ignore line: [clang version 11.0.0 (https://github.com/llvm/llvm-project 176249bd6732a8044d457092ed932768724a6f06)]
+  ignore line: [Target: wasm32]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/wasi-sdk/bin]
+  link line: [ "/opt/wasi-sdk/bin/wasm-ld" -m wasm32 -L/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/lib -z stack-size=4096 --initial-memory=65536 --no-entry --strip-all --allow-undefined-file=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/share/defined-symbols.txt CMakeFiles/cmTC_aeeda.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_aeeda]
+    arg [/opt/wasi-sdk/bin/wasm-ld] ==> ignore
+    arg [-m] ==> ignore
+    arg [wasm32] ==> ignore
+    arg [-L/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/lib] ==> dir [/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/lib]
+    arg [-zstack-size=4096] ==> ignore
+    arg [--initial-memory=65536] ==> ignore
+    arg [--no-entry] ==> ignore
+    arg [--strip-all] ==> ignore
+    arg [--allow-undefined-file=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/share/defined-symbols.txt] ==> ignore
+    arg [CMakeFiles/cmTC_aeeda.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_aeeda] ==> ignore
+  collapse library dir [/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/lib] ==> [/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/lib]
+  implicit libs: []
+  implicit dirs: [/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/lib]
+  implicit fwks: []
+
+

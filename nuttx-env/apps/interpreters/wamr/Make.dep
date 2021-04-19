@@ -1,0 +1,2471 @@
+aot_loader.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/iwasm/aot/aot_loader.c wamr/core/iwasm/aot/aot_runtime.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/iwasm/aot/../common/wasm_runtime_common.h \
+ wamr/core/shared/utils/bh_common.h \
+ wamr/core/iwasm/aot/../common/wasm_exec_env.h \
+ wamr/core/shared/utils/bh_assert.h \
+ wamr/core/iwasm/aot/../common/../interpreter/wasm.h \
+ wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/iwasm/aot/../common/wasm_native.h \
+ wamr/core/iwasm/aot/../common/../include/wasm_export.h \
+ wamr/core/iwasm/aot/../common/../include/lib_export.h \
+ wamr/core/iwasm/aot/../interpreter/wasm_runtime.h \
+ wamr/core/iwasm/aot/../interpreter/wasm.h \
+ wamr/core/iwasm/aot/../interpreter/../common/wasm_runtime_common.h \
+ wamr/core/iwasm/aot/../interpreter/../common/wasm_exec_env.h \
+ wamr/core/iwasm/aot/../compilation/aot.h \
+ wamr/core/iwasm/aot/../compilation/../common/wasm_runtime_common.h \
+ wamr/core/iwasm/aot/../compilation/../interpreter/wasm.h \
+ wamr/core/shared/utils/bh_log.h wamr/core/iwasm/aot/aot_reloc.h \
+ wamr/core/iwasm/aot/../common/wasm_native.h
+aot_reloc_thumb.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/iwasm/aot/arch/aot_reloc_thumb.c \
+ wamr/core/iwasm/aot/aot_reloc.h wamr/core/iwasm/aot/aot_runtime.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/iwasm/aot/../common/wasm_runtime_common.h \
+ wamr/core/shared/utils/bh_common.h \
+ wamr/core/iwasm/aot/../common/wasm_exec_env.h \
+ wamr/core/shared/utils/bh_assert.h \
+ wamr/core/iwasm/aot/../common/../interpreter/wasm.h \
+ wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/iwasm/aot/../common/wasm_native.h \
+ wamr/core/iwasm/aot/../common/../include/wasm_export.h \
+ wamr/core/iwasm/aot/../common/../include/lib_export.h \
+ wamr/core/iwasm/aot/../interpreter/wasm_runtime.h \
+ wamr/core/iwasm/aot/../interpreter/wasm.h \
+ wamr/core/iwasm/aot/../interpreter/../common/wasm_runtime_common.h \
+ wamr/core/iwasm/aot/../interpreter/../common/wasm_exec_env.h \
+ wamr/core/iwasm/aot/../compilation/aot.h \
+ wamr/core/iwasm/aot/../compilation/../common/wasm_runtime_common.h \
+ wamr/core/iwasm/aot/../compilation/../interpreter/wasm.h
+aot_runtime.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/iwasm/aot/aot_runtime.c wamr/core/iwasm/aot/aot_runtime.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/iwasm/aot/../common/wasm_runtime_common.h \
+ wamr/core/shared/utils/bh_common.h \
+ wamr/core/iwasm/aot/../common/wasm_exec_env.h \
+ wamr/core/shared/utils/bh_assert.h \
+ wamr/core/iwasm/aot/../common/../interpreter/wasm.h \
+ wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/iwasm/aot/../common/wasm_native.h \
+ wamr/core/iwasm/aot/../common/../include/wasm_export.h \
+ wamr/core/iwasm/aot/../common/../include/lib_export.h \
+ wamr/core/iwasm/aot/../interpreter/wasm_runtime.h \
+ wamr/core/iwasm/aot/../interpreter/wasm.h \
+ wamr/core/iwasm/aot/../interpreter/../common/wasm_runtime_common.h \
+ wamr/core/iwasm/aot/../interpreter/../common/wasm_exec_env.h \
+ wamr/core/iwasm/aot/../compilation/aot.h \
+ wamr/core/iwasm/aot/../compilation/../common/wasm_runtime_common.h \
+ wamr/core/iwasm/aot/../compilation/../interpreter/wasm.h \
+ wamr/core/shared/utils/bh_log.h wamr/core/shared/mem-alloc/mem_alloc.h
+wasm_runtime.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/iwasm/interpreter/wasm_runtime.c \
+ wamr/core/iwasm/interpreter/wasm_runtime.h \
+ wamr/core/iwasm/interpreter/wasm.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/shared/utils/bh_assert.h \
+ wamr/core/iwasm/interpreter/../common/wasm_runtime_common.h \
+ wamr/core/shared/utils/bh_common.h \
+ wamr/core/iwasm/interpreter/../common/wasm_exec_env.h \
+ wamr/core/iwasm/interpreter/../common/../interpreter/wasm.h \
+ wamr/core/iwasm/interpreter/../common/wasm_native.h \
+ wamr/core/iwasm/interpreter/../common/../include/wasm_export.h \
+ wamr/core/iwasm/interpreter/../common/../include/lib_export.h \
+ wamr/core/iwasm/interpreter/../common/wasm_exec_env.h \
+ wamr/core/iwasm/interpreter/wasm_loader.h \
+ wamr/core/iwasm/interpreter/wasm_interp.h \
+ wamr/core/shared/utils/bh_log.h wamr/core/shared/mem-alloc/mem_alloc.h
+wasm_interp_fast.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/iwasm/interpreter/wasm_interp_fast.c \
+ wamr/core/iwasm/interpreter/wasm_interp.h \
+ wamr/core/iwasm/interpreter/wasm.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/shared/utils/bh_assert.h \
+ wamr/core/shared/utils/bh_log.h \
+ wamr/core/iwasm/interpreter/wasm_runtime.h \
+ wamr/core/iwasm/interpreter/../common/wasm_runtime_common.h \
+ wamr/core/shared/utils/bh_common.h \
+ wamr/core/iwasm/interpreter/../common/wasm_exec_env.h \
+ wamr/core/iwasm/interpreter/../common/../interpreter/wasm.h \
+ wamr/core/iwasm/interpreter/../common/wasm_native.h \
+ wamr/core/iwasm/interpreter/../common/../include/wasm_export.h \
+ wamr/core/iwasm/interpreter/../common/../include/lib_export.h \
+ wamr/core/iwasm/interpreter/../common/wasm_exec_env.h \
+ wamr/core/iwasm/interpreter/wasm_opcode.h \
+ wamr/core/iwasm/interpreter/wasm_loader.h
+thread_manager.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/iwasm/libraries/thread-mgr/thread_manager.c \
+ wamr/core/iwasm/libraries/thread-mgr/thread_manager.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_common.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/shared/utils/bh_list.h \
+ wamr/core/shared/utils/bh_log.h wamr/core/shared/utils/bh_queue.h \
+ wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h wamr/core/shared/utils/bh_log.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/wasm_export.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/lib_export.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../interpreter/wasm.h \
+ wamr/core/shared/utils/bh_platform.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../common/wasm_runtime_common.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../common/wasm_exec_env.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../common/../interpreter/wasm.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../common/wasm_native.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../common/../include/wasm_export.h
+lib_pthread_wrapper.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/iwasm/libraries/lib-pthread/lib_pthread_wrapper.c \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_common.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/shared/utils/bh_list.h \
+ wamr/core/shared/utils/bh_log.h wamr/core/shared/utils/bh_queue.h \
+ wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h wamr/core/shared/utils/bh_log.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/wasm_export.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/lib_export.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../interpreter/wasm.h \
+ wamr/core/shared/utils/bh_platform.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../common/wasm_runtime_common.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../common/wasm_exec_env.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../common/../interpreter/wasm.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../common/wasm_native.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../common/../include/wasm_export.h \
+ wamr/core/iwasm/libraries/thread-mgr/thread_manager.h
+wasm_mini_loader.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/iwasm/interpreter/wasm_mini_loader.c \
+ wamr/core/iwasm/interpreter/wasm_loader.h \
+ wamr/core/iwasm/interpreter/wasm.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/shared/utils/bh_assert.h \
+ wamr/core/iwasm/interpreter/../common/wasm_runtime_common.h \
+ wamr/core/shared/utils/bh_common.h \
+ wamr/core/iwasm/interpreter/../common/wasm_exec_env.h \
+ wamr/core/iwasm/interpreter/../common/../interpreter/wasm.h \
+ wamr/core/iwasm/interpreter/../common/wasm_native.h \
+ wamr/core/iwasm/interpreter/../common/../include/wasm_export.h \
+ wamr/core/iwasm/interpreter/../common/../include/lib_export.h \
+ wamr/core/shared/utils/bh_log.h \
+ wamr/core/iwasm/interpreter/wasm_opcode.h \
+ wamr/core/iwasm/interpreter/wasm_runtime.h \
+ wamr/core/iwasm/interpreter/../common/wasm_exec_env.h \
+ wamr/core/iwasm/interpreter/../common/wasm_native.h
+nuttx_platform.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/platform/nuttx/nuttx_platform.c \
+ wamr/core/shared/platform/include/platform_api_extension.h \
+ wamr/core/shared/platform/include/platform_common.h \
+ wamr/core/shared/platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/platform/include/platform_api_vmcore.h
+posix_thread.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/platform/common/posix/posix_thread.c \
+ wamr/core/shared/platform/include/platform_api_vmcore.h \
+ wamr/core/shared/platform/include/platform_common.h \
+ wamr/core/shared/platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/platform/include/platform_api_extension.h
+posix_time.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/platform/common/posix/posix_time.c \
+ wamr/core/shared/platform/include/platform_api_vmcore.h \
+ wamr/core/shared/platform/include/platform_common.h \
+ wamr/core/shared/platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h
+mem_alloc.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/mem-alloc/mem_alloc.c \
+ wamr/core/shared/mem-alloc/mem_alloc.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/shared/mem-alloc/ems/ems_gc.h
+ems_kfc.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/mem-alloc/ems/ems_kfc.c \
+ wamr/core/shared/mem-alloc/ems/ems_gc_internal.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/shared/mem-alloc/ems/ems_gc.h
+ems_alloc.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/mem-alloc/ems/ems_alloc.c \
+ wamr/core/shared/mem-alloc/ems/ems_gc_internal.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/shared/mem-alloc/ems/ems_gc.h
+ems_hmu.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/mem-alloc/ems/ems_hmu.c \
+ wamr/core/shared/mem-alloc/ems/ems_gc_internal.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/shared/mem-alloc/ems/ems_gc.h
+bh_assert.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/utils/bh_assert.c wamr/core/shared/utils/bh_assert.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h
+bh_common.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/utils/bh_common.c wamr/core/shared/utils/bh_common.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h
+bh_hashmap.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/utils/bh_hashmap.c wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_common.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h
+bh_list.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/utils/bh_list.c wamr/core/shared/utils/bh_list.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_common.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h
+bh_log.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/utils/bh_log.c wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_common.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/shared/utils/bh_list.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h
+bh_queue.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/utils/bh_queue.c wamr/core/shared/utils/bh_queue.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_common.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/shared/utils/bh_list.h \
+ wamr/core/shared/utils/bh_log.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h
+bh_vector.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/utils/bh_vector.c wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_common.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/shared/utils/bh_list.h \
+ wamr/core/shared/utils/bh_log.h wamr/core/shared/utils/bh_queue.h \
+ wamr/core/shared/utils/runtime_timer.h
+bh_read_file.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/utils/uncommon/bh_read_file.c \
+ wamr/core/shared/utils/uncommon/bh_read_file.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/stat.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/fcntl.h
+runtime_timer.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/shared/utils/runtime_timer.c \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_common.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/shared/utils/bh_list.h \
+ wamr/core/shared/utils/bh_log.h wamr/core/shared/utils/bh_queue.h \
+ wamr/core/shared/utils/bh_vector.h
+libc_builtin_wrapper.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_common.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/shared/utils/bh_list.h \
+ wamr/core/shared/utils/bh_log.h wamr/core/shared/utils/bh_queue.h \
+ wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h wamr/core/shared/utils/bh_log.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/wasm_export.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/lib_export.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../interpreter/wasm.h \
+ wamr/core/shared/utils/bh_platform.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_assert.h
+wasm_runtime_common.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/iwasm/common/wasm_runtime_common.c \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_assert.h \
+ wamr/core/shared/utils/bh_log.h \
+ wamr/core/iwasm/common/wasm_runtime_common.h \
+ wamr/core/iwasm/common/wasm_exec_env.h \
+ wamr/core/iwasm/common/../interpreter/wasm.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/iwasm/common/wasm_native.h \
+ wamr/core/iwasm/common/../include/wasm_export.h \
+ wamr/core/iwasm/common/../include/lib_export.h \
+ wamr/core/iwasm/common/wasm_memory.h \
+ wamr/core/iwasm/common/../interpreter/wasm_runtime.h \
+ wamr/core/iwasm/common/../interpreter/wasm.h \
+ wamr/core/iwasm/common/../interpreter/../common/wasm_runtime_common.h \
+ wamr/core/iwasm/common/../interpreter/../common/wasm_exec_env.h \
+ wamr/core/iwasm/common/../aot/aot_runtime.h \
+ wamr/core/iwasm/common/../aot/../common/wasm_runtime_common.h \
+ wamr/core/iwasm/common/../aot/../interpreter/wasm_runtime.h \
+ wamr/core/iwasm/common/../aot/../compilation/aot.h \
+ wamr/core/iwasm/common/../aot/../compilation/../common/wasm_runtime_common.h \
+ wamr/core/iwasm/common/../aot/../compilation/../interpreter/wasm.h \
+ wamr/core/iwasm/common/../libraries/thread-mgr/thread_manager.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/wasm_export.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../interpreter/wasm.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../common/wasm_runtime_common.h
+wasm_native.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/iwasm/common/wasm_native.c \
+ wamr/core/iwasm/common/wasm_native.h wamr/core/shared/utils/bh_common.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_common.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/shared/utils/bh_list.h \
+ wamr/core/shared/utils/bh_log.h wamr/core/shared/utils/bh_queue.h \
+ wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/iwasm/common/../include/wasm_export.h \
+ wamr/core/iwasm/common/../include/lib_export.h \
+ wamr/core/iwasm/common/../interpreter/wasm.h \
+ wamr/core/shared/utils/bh_platform.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_assert.h \
+ wamr/core/iwasm/common/wasm_runtime_common.h \
+ wamr/core/iwasm/common/wasm_exec_env.h wamr/core/shared/utils/bh_log.h
+wasm_exec_env.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/iwasm/common/wasm_exec_env.c \
+ wamr/core/iwasm/common/wasm_exec_env.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_common.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/shared/utils/bh_list.h \
+ wamr/core/shared/utils/bh_log.h wamr/core/shared/utils/bh_queue.h \
+ wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/iwasm/common/../interpreter/wasm.h \
+ wamr/core/shared/utils/bh_platform.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/iwasm/common/wasm_runtime_common.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/iwasm/common/wasm_native.h \
+ wamr/core/iwasm/common/../include/wasm_export.h \
+ wamr/core/iwasm/common/../include/lib_export.h \
+ wamr/core/iwasm/common/../libraries/thread-mgr/thread_manager.h \
+ wamr/core/shared/utils/bh_log.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/wasm_export.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../interpreter/wasm.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/../common/wasm_runtime_common.h
+wasm_memory.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/iwasm/common/wasm_memory.c \
+ wamr/core/iwasm/common/wasm_runtime_common.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/shared/utils/bh_common.h \
+ wamr/core/iwasm/common/wasm_exec_env.h \
+ wamr/core/shared/utils/bh_assert.h \
+ wamr/core/iwasm/common/../interpreter/wasm.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/iwasm/common/wasm_native.h \
+ wamr/core/iwasm/common/../include/wasm_export.h \
+ wamr/core/iwasm/common/../include/lib_export.h \
+ wamr/core/shared/mem-alloc/mem_alloc.h
+wasm_c_api.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/core/iwasm/common/wasm_c_api.c \
+ wamr/core/iwasm/common/wasm_c_api_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/wasm_c_api.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ wamr/core/iwasm/common/wasm_runtime_common.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/shared/utils/bh_common.h \
+ wamr/core/iwasm/common/wasm_exec_env.h \
+ wamr/core/shared/utils/bh_assert.h \
+ wamr/core/iwasm/common/../interpreter/wasm.h \
+ wamr/core/shared/utils/bh_hashmap.h wamr/core/iwasm/common/wasm_native.h \
+ wamr/core/iwasm/common/../include/wasm_export.h \
+ wamr/core/iwasm/common/../include/lib_export.h \
+ wamr/core/iwasm/common/wasm_memory.h wamr/core/iwasm/aot/aot_runtime.h \
+ wamr/core/iwasm/aot/../common/wasm_runtime_common.h \
+ wamr/core/iwasm/aot/../interpreter/wasm_runtime.h \
+ wamr/core/iwasm/aot/../interpreter/wasm.h \
+ wamr/core/iwasm/aot/../interpreter/../common/wasm_runtime_common.h \
+ wamr/core/iwasm/aot/../interpreter/../common/wasm_exec_env.h \
+ wamr/core/iwasm/aot/../compilation/aot.h \
+ wamr/core/iwasm/aot/../compilation/../common/wasm_runtime_common.h \
+ wamr/core/iwasm/aot/../compilation/../interpreter/wasm.h
+main.home.lolo.Documents.emulation.nuttx-env.apps.interpreters.wamr.o: \
+ wamr/product-mini/platforms/nuttx/main.c \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdlib.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/config.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/compiler.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdint.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/types.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/inttypes.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/limits.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdio.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stdbool.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/strings.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/string.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/stddef.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/b2c.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/sched.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/queue.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/signal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/pthread.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/prctl.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/unistd.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/semaphore.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/errno.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/clock.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/assert.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/chip/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/armv7-a/irq.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/arch/arch.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/pgalloc.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/addrenv.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/wdog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/shm.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/debug.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/syslog.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/uio.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/gran.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/fs/fs.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/net/net.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/socket.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/nuttx/mm/iob.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/include/system/readline.h \
+ wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/../../../config.h \
+ wamr/core/shared/platform/nuttx/platform_internal.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/ctype.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/inttypes.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/_ansi.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/time.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/select.h \
+ /home/lolo/Documents/emulation/nuttx-env/nuttx/include/sys/mman.h \
+ wamr/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ wamr/core/shared/utils/../platform/include/platform_common.h \
+ wamr/core/shared/utils/../platform/include/platform_api_extension.h \
+ wamr/core/shared/utils/bh_assert.h wamr/core/shared/utils/bh_platform.h \
+ wamr/core/shared/utils/bh_common.h wamr/core/shared/utils/bh_hashmap.h \
+ wamr/core/shared/utils/bh_list.h wamr/core/shared/utils/bh_log.h \
+ wamr/core/shared/utils/bh_queue.h wamr/core/shared/utils/bh_vector.h \
+ wamr/core/shared/utils/runtime_timer.h \
+ wamr/core/shared/utils/uncommon/bh_read_file.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/wasm_export.h \
+ /home/lolo/Documents/emulation/nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/include/lib_export.h
