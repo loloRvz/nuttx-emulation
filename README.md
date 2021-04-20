@@ -1,4 +1,4 @@
 # NuttX Emulation with QEMU
 
-## And trying to launch wasm modules 
-
+This repo documents my progress in emulating NuttX using QEMU and trying 
+to run 
