@@ -1,0 +1,6 @@
+[submodule "nuttx-env/nuttx"]
+	path = nuttx-env/nuttx
+	url = https://github.com/loloRvz/incubator-nuttx.git
+[submodule "nuttx-env/apps"]
+	path = nuttx-env/apps
+	url = https://github.com/loloRvz/incubator-nuttx-apps.git
