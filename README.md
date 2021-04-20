@@ -47,3 +47,25 @@ tutorial:
 
 https://linuxhint.com/install_tftp_server_ubuntu/
 
+Now that we can share files to QEMU let's build an example and upload it 
+to the server:
+
+```
+cd nuttx-emulation/wasm-example/module
+```
+
+Change the ip address in "build.sh" and run the script.
+
+```
+./build.sh
+```
+
+Now run QEMU, get the module and run it:
+
+```
+cd ../../nuttx-env/nuttx
+qemu-system-arm -machine sabrelite -kernel nuttx -nographic
+nsh> cd tmp
+nsh> get -h 192.168.0.224 module.aot
+nsh> myapp
+```
