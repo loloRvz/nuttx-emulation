@@ -16,7 +16,8 @@ https://github.com/bytecodealliance/wasm-micro-runtime/blob/main/doc/build_wasm_
 
 ## Setting up the environment
 
-Clone the repo and build nuttx:
+Clone the repo to your desired location (we'll be working in this directory) 
+and build nuttx:
 
 ```
 git clone https://github.com/loloRvz/nuttx-emulation.git
@@ -35,7 +36,7 @@ Run qemu:
 qemu-system-arm -machine sabrelite -kernel nuttx -nographic
 ```
 
-You should now have access to the NuttX shell (nsh>). To exit qemu press 
+You should now have access to the NuttX shell (nsh>)! To exit qemu press 
 'ctrl^a', followed by 'x'.
 
 ## Running WASM Modules on NuttX inside QEMU
