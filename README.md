@@ -7,6 +7,6 @@ to run wasm modules and functions from inside a 'native' C custom app.
 
 Clone
 
-'''
+```
 git clone https://github.com/loloRvz/nuttx-emulation.git
-'''
+```
