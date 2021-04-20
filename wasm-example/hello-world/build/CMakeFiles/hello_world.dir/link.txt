@@ -1,1 +1,0 @@
-/opt/wasi-sdk/bin/clang --target=wasm32 --sysroot=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot -nostdlib -z stack-size=4096  -Wl,--initial-memory=65536,--no-entry,--strip-all,--allow-undefined-file=/home/lolo/Documents/wasm-micro-runtime/wamr-sdk/app/libc-builtin-sysroot/share/defined-symbols.txt CMakeFiles/hello_world.dir/test.c.o  -o hello_world 

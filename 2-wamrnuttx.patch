@@ -1,0 +1,33 @@
+--- ./nuttx-env/apps/interpreters/wamr/wamr/product-mini/platforms/nuttx/wamr-old.mk	2021-03-24 23:13:34.000000000 -0300
++++ ./nuttx-env/apps/interpreters/wamr/wamr/product-mini/platforms/nuttx/wamr.mk	2021-03-31 15:26:38.492959116 -0300
+@@ -7,6 +7,8 @@
+ 
+ ifeq ($(CONFIG_ARCH_ARMV7M),y)
+ WAMR_BUILD_TARGET := THUMBV7EM
++else ifeq ($(CONFIG_ARCH_ARMV7A),y)
++WAMR_BUILD_TARGET := THUMBV7A
+ else ifeq ($(CONFIG_ARCH_ARMV8M),y)
+ WAMR_BUILD_TARGET := THUMBV8M
+ else ifeq ($(CONFIG_ARCH_X86),y)
+@@ -183,7 +185,8 @@
+          wasm_runtime_common.c \
+          wasm_native.c \
+          wasm_exec_env.c \
+-         wasm_memory.c
++         wasm_memory.c \
++         wasm_c_api.c
+ 
+ ASRCS += ${INVOKE_NATIVE}
+
+ 
+--- nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/common/wasm_c_api-old.c	2021-04-13 04:23:22.000000000 -0300
++++ nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/common/wasm_c_api.c	2021-04-20 10:12:06.016237353 -0300
+@@ -6,7 +6,7 @@
+ #include "wasm_c_api_internal.h"
+ #include "wasm_memory.h"
+ #if WASM_ENABLE_INTERP != 0
+-#include "wasm_runtime.h"
++//#include "wasm_runtime.h"
+ #endif
+ #if WASM_ENABLE_AOT != 0
+ #include "aot_runtime.h"
