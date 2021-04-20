@@ -5,6 +5,11 @@ to run wasm modules and functions from inside a 'native' C custom app.
 
 ## Prerequisites
 
+sudo apt-get install \ 
+gcc-arm-none-eabi \ 
+qemu-system-arm
+					 
+
 ## Setting up the environment
 
 Clone the repo and build nuttx:
