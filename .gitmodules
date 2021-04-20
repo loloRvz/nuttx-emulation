@@ -1,3 +1,0 @@
-[submodule "nuttx-env/nuttx"]
-	path = nuttx-env/nuttx
-	url = https://github.com/loloRvz/incubator-nuttx.git
