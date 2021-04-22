@@ -10,9 +10,15 @@ To build NuttX and run QEMU:
 sudo apt-get install gcc-arm-none-eabi qemu-system-arm
 ```				 
 
-To build WASM modules, follow the following tutorial:
+If you'd like to create or modify wasm modules and apps you'll need to:
+* Clone the [WAMR](https://github.com/bytecodealliance/wasm-micro-runtime)
+repo and define its root as ```WAMR_DIR``` in your environment variables.
+* Be able to [build WASM applications](https://github.com/bytecodealliance/wasm-micro-runtime/blob/main/doc/build_wasm_app.md):
+	* Install [wasi-sdk](https://github.com/WebAssembly/wasi-sdk/releases)
+and extracting the archive to default path ```/opt/wasi-sdk```.
+	* Install [wamrc](https://github.com/bytecodealliance/wasm-micro-runtime#build-wamrc-aot-compiler),
+the AoT compiler and add it to you PATH.
 
-https://github.com/bytecodealliance/wasm-micro-runtime/blob/main/doc/build_wasm_app.md
 
 ## Setting up the environment
 
