@@ -51,7 +51,7 @@ qemu-system-arm -machine sabrelite -kernel nuttx -nographic
 You should now have access to the NuttX shell (nsh>)! To exit qemu press 
 'ctrl^a', followed by 'x'.
 
-## Running WASM Modules on NuttX inside QEMU
+## Running wafle in QEMU
 
 We first have to be able to share files between host and guest on QEMU. 
 For this, we'll be using TFTP. Set up a TFTP server using the following 
@@ -79,5 +79,5 @@ cd ../../nuttx-env/nuttx
 qemu-system-arm -machine sabrelite -kernel nuttx -nographic
 nsh> cd tmp
 nsh> get -h 192.168.0.224 module.aot
-nsh> myapp
+nsh> wafle
 ```
