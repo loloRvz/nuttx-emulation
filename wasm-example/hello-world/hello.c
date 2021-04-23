@@ -1,10 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
 
-int main(int argc, char **argv){
+int main(){
 	
-    printf("Hello world from wasm! \n");
-
+    //printf("Hello world from wasm! \n");
+	int i = 4, j = 5;
+	int n;
+	n= i+j;
+	return 0;
 	/*
 	char *buf;
     buf = malloc(1024);
