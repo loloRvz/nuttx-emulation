@@ -20,8 +20,8 @@ and extracting the archive to default path ```/opt/wasi-sdk```.
 	saberlite board architecture)
 ```
 cd nuttx-emulation
-patch -p0 -d $WAMR_DIR < patches/p3-wamrc-arch.patch
-```
+patch -p0 -d $WAMR_DIR < patches/p3-wamrc-arch.patch ```
+
 	* Install [wamrc](https://github.com/bytecodealliance/wasm-micro-runtime#build-wamrc-aot-compiler),
 the AoT compiler and add it to you PATH.
 
