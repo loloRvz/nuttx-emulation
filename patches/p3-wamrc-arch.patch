@@ -1,0 +1,10 @@
+--- core/iwasm/compilation/aot_llvm-old.c	2021-04-23 13:03:37.959301891 -0300
++++ core/iwasm/compilation/aot_llvm.c	2021-04-23 12:41:01.799549389 -0300
+@@ -1039,6 +1039,7 @@
+     { "thumbv6t2", true },
+     { "thumbv6k", true },
+     { "thumbv7", true },
++    { "thumbv7a", true },
+     { "thumbv6m", true },
+     { "thumbv6sm", true },
+     { "thumbv7em", true },

@@ -16,6 +16,12 @@ repo and define its root as ```WAMR_DIR``` in your environment variables.
 * Be able to [build WASM applications](https://github.com/bytecodealliance/wasm-micro-runtime/blob/main/doc/build_wasm_app.md):
 	* Install [wasi-sdk](https://github.com/WebAssembly/wasi-sdk/releases)
 and extracting the archive to default path ```/opt/wasi-sdk```.
+	* Apply the following patch: (crucial to compile .aot for the 
+	saberlite board architecture)
+```
+cd nuttx-emulation
+patch -p0 -d $WAMR_DIR < patches/p3-wamrc-arch.patch
+```
 	* Install [wamrc](https://github.com/bytecodealliance/wasm-micro-runtime#build-wamrc-aot-compiler),
 the AoT compiler and add it to you PATH.
 

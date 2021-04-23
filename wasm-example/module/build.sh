@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 /opt/wasi-sdk/bin/clang \
@@ -21,7 +20,7 @@ tftp 192.168.0.224 -c put module.aot
 
 
 wat2wasm -o sum.wasm sum.wat
-wamrc --target=thumbv7 \
+wamrc --target=thumbv7a \
 	  --cpu=cortex-a9 \
 	  --cpu-features=armv7-a \
 	  --opt-level=0 \
