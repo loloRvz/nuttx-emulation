@@ -20,8 +20,8 @@
  ASRCS += ${INVOKE_NATIVE}
 
  
---- nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/common/wasm_c_api-old.c	2021-04-13 04:23:22.000000000 -0300
-+++ nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/common/wasm_c_api.c	2021-04-20 10:12:06.016237353 -0300
+--- ./nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/common/wasm_c_api-old.c	2021-04-13 04:23:22.000000000 -0300
++++ ./nuttx-env/apps/interpreters/wamr/wamr/core/iwasm/common/wasm_c_api.c	2021-04-20 10:12:06.016237353 -0300
 @@ -6,7 +6,7 @@
  #include "wasm_c_api_internal.h"
  #include "wasm_memory.h"
