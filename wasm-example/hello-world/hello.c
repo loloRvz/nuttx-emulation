@@ -1,13 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
 
-int main(){
-	
-    //printf("Hello world from wasm! \n");
-	int i = 4, j = 5;
-	int n;
-	n= i+j;
-	return 0;
-	/*
-	char *buf;
+int main(int argc, char **argv){
+    char *buf;
+
+    printf("Hello world from Wasm!\n");
+
     buf = malloc(1024);
     if (!buf) {
         printf("malloc buf failed\n");
@@ -20,5 +18,5 @@ int main(){
     printf("buf: %s", buf);
 
     free(buf);
-    return 0;*/
+    return 0;
 }
