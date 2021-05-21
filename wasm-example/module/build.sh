@@ -1,7 +1,7 @@
 #!/bin/bash
 
 /opt/wasi-sdk/bin/clang \
-	-o module.wasm module.c \
+	-o mod.wasm module.c \
 	-O3 -z stack-size=8192 -nostdlib \
 	-Wl,--initial-memory=65536 \
     -Wl,--strip-all,--no-entry,--allow-undefined \
@@ -10,11 +10,11 @@
     -Wl,--import-memory 
 
 wamrc --target=thumbv7a \
-	  -o mod.aot module.wasm
+	  -o mod.aot mod.wasm
 	  
-wamrc -o mod1.aot module.wasm
+wamrc -o mod1.aot mod.wasm
 
-tftp 192.168.0.224 -c put module.wasm
+tftp 192.168.0.224 -c put mod.wasm
 tftp 192.168.0.224 -c put mod.aot
 
 
