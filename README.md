@@ -45,7 +45,7 @@ make
 Run qemu: 
 
 ```
-qemu-system-arm -machine sabrelite -kernel nuttx -nographic
+qemu-system-arm -machine sabrelite -kernel nuttx -nographic -s
 ```
 
 You should now have access to the NuttX shell (nsh>)! To exit qemu press 
@@ -81,3 +81,22 @@ nsh> cd tmp
 nsh> get -b -h 192.168.0.224 mod.aot
 nsh> wafle mod.aot
 ```
+## Debugging
+
+You can debug your NuttX application using gdb. For this, run NuttX on QEMU
+as instructed above, then open a new terminal window and install gdb:
+
+```
+sudo apt-get install gdb-multiarch
+cd nuttx-emulation/nuttx-env/nuttx
+gdb-multiarch -ex 'target remote localhost:1234' nuttx
+```
+
+You can now set breakpoints wherever you want, for example:
+
+```
+b wafle_main
+```
+
+NuttX will then be frozen, to unfreeze, just run ```c``` and you can then
+run your wafle app to debug.
