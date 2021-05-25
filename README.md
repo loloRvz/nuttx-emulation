@@ -78,8 +78,8 @@ Now run QEMU, get the module and run it:
 cd ../../nuttx-env/nuttx
 qemu-system-arm -machine sabrelite -kernel nuttx -nographic -s
 nsh> cd tmp
-nsh> get -b -h 192.168.0.224 mod.aot
-nsh> wafle mod.aot
+nsh> get -b -h 192.168.0.224 mod.wasm
+nsh> wafle mod.wasm
 ```
 ## Debugging
 
